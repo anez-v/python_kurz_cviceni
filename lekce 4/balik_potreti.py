@@ -24,20 +24,3 @@ class Package:
 
 balik_1 = Package ("Václavské Náměstí 12, Praha", 0.25, "nedoručen")
 balik_2 = Package ("Maiselova 7, Praha 1", 12.3, "doručen")
-
-"""Přidej metodu deliver(). Půjde o obdobu tlačítka, které řidič nebo řidička zmáčkne při doručení balíku a
-zaznamená tak jeho doručení. Metoda nejprve zkontroluje, zda balík náhodou již není ve stavu doručen. 
-Pokud ano, metoda vrátí zprávu "Balík již byl doručen". 
-Tím bude řidič (řidička) informován(a) o tom, že se pravděpodobně spletl(a) a snaží se zaznamenat doručení u špatného balíku. 
-Pokud balík není ve stavu doručen, změň jeho stav právě na doručen a vrať zprávu "Doručení uloženo"."""
-
-print(balik_1.deliver())
-print(balik_1)
-
-print(balik_1.deliver())
-print(balik_1)
-
-print(balik_2.deliver())
-print(balik_2)
-
-
